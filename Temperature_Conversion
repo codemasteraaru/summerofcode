@@ -1,0 +1,13 @@
+import math, os
+
+def convertToCelcius(temperatureInFarenheit):
+    convertedTempInCelcius = (temperatureInFarenheit - 32) * (5/9)
+    return convertedTempInCelcius
+
+def convertToFarenheit(temperatureInCelcius):
+    convertedTempInFarenheit = (temperatureInCelcius * (9/5) +32)
+    return convertedTempInFarenheit
+
+print(convertToCelcius(45))
+print(convertToFarenheit(79))
+
