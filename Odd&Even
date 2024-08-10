@@ -1,0 +1,12 @@
+import math
+
+def isOdd(number):
+    return number%2 == 1
+
+def isEven(number):
+    return number%2 == 0
+
+if isOdd(14) == True :
+    print("Odd")
+else: 
+    print ("Even")
